@@ -10,4 +10,6 @@ use collectVideo\VideoUrlParser;
 
 require_once '../vendor/autoload.php';
 
-VideoUrlParser::test();
+$url='https://v.douyin.com/nxrF2Y';
+$data=VideoUrlParser::getUrlData($url);
+var_dump($data);
