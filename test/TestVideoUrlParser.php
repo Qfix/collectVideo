@@ -12,4 +12,6 @@ require_once '../vendor/autoload.php';
 
 $url='https://v.douyin.com/nxrF2Y';
 $data=VideoUrlParser::getUrlData($url);
+ echo 'haode ';
 var_dump($data);
+echo 'niub ';
